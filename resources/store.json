@@ -1,0 +1,29 @@
+{
+    "Book": [
+        {
+            "Author": "Nigel Rees",
+            "Category": "reference",
+            "Price": 150.5,
+            "Title": "Sayings of the Century"
+        },
+        {
+            "Author": "Evelyn Waugh",
+            "Category": "fiction",
+            "Price": 100,
+            "Title": "Sword of Honour"
+        },
+        {
+            "Author": "Herman Melville",
+            "Category": "fiction",
+            "isbn": "0-553-21311-3",
+            "Price": 75.5,
+            "Title": "Moby Dick"
+        },
+        {
+            "Author": "J. R. Tolkien",
+            "Category": "fiction",
+            "Price": 200,
+            "Title": "The Lord of the Rings"
+        }
+    ]
+}

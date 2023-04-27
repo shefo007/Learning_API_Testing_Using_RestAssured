@@ -1,0 +1,6 @@
+{
+    "fileName": "Test2.txt",
+    "fileDownloadUrl": "http://localhost:8080/downloadFile/Test2.txt",
+    "fileType": "text/plain",
+    "size": 70
+}

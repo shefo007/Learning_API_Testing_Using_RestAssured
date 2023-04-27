@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/Welcome7Element"
+    },
+    "definitions": {
+        "Welcome7Element": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Author": {
+                    "type": "string"
+                },
+                "Category": {
+                    "type": "string"
+                },
+                "Price": {
+                    "type": "number"
+                },
+                "Title": {
+                    "type": "string"
+                },
+                "isbn": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "Author",
+                "Category",
+                "Price",
+                "Title"
+            ],
+            "title": "Welcome7Element"
+        }
+    }
+}
