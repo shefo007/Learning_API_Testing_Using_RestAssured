@@ -1,12 +1,12 @@
 ---
-name: Java CI with Maven
+name: Test my API Testing Project 
 
 on:
   push:
     branches: [ "main" ]
 
 jobs:
-  build:
+  Test-RestAssured:
 
     runs-on: ubuntu-latest
 
@@ -18,6 +18,6 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-      run: mvn clean test
+    - name: Test with Maven
+      run: mvn test
 
